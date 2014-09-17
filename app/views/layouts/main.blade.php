@@ -8,7 +8,7 @@
         {{ HTML::style('css/bootstrap.css') }}
     </head>
     <body>
-        <div class="container-fluid">
+        <div class="container center-block">
             @yield('content')
         </div> 
         <!-- Scripts are placed here -->
