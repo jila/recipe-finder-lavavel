@@ -7,13 +7,13 @@
         <div class="form-group">
         {{ Form::label('fridge-items', 'Fridge Items') }}
         {{ Form::file('fridge-items') }}
-        {{ $errors->first('fridge-items', '<div>:message</div>')}}
+        {{ $errors->first('fridge-items', '<div class="alert alert-danger">:message</div>')}}
         </div>
         
         <div class="form-group">
         {{ Form::label('recipes', 'Avalable Recipes') }}
         {{ Form::file('recipes') }}
-        {{ $errors->first('recipes', '<div>:message</div>')}}
+        {{ $errors->first('recipes', '<div class="alert alert-danger">:message</div>')}}
         </div>
         {{ Form::submit('submit', array('class' => 'btn btn-primary')) }}
     {{ Form::close() }}
