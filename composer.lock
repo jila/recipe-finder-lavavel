@@ -238,12 +238,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/jila/recipe-finder.git",
-                "reference": "b54644aacb7c681fd3bf347a9fd8b4b801b925bc"
+                "reference": "d9c796b2df5059739a0ca88675d7bcc31cde2891"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jila/recipe-finder/zipball/b54644aacb7c681fd3bf347a9fd8b4b801b925bc",
-                "reference": "b54644aacb7c681fd3bf347a9fd8b4b801b925bc",
+                "url": "https://api.github.com/repos/jila/recipe-finder/zipball/d9c796b2df5059739a0ca88675d7bcc31cde2891",
+                "reference": "d9c796b2df5059739a0ca88675d7bcc31cde2891",
                 "shasum": ""
             },
             "require": {
@@ -273,7 +273,7 @@
                 }
             ],
             "description": "Recipe finder base on given fridge items and available recipes",
-            "time": "2014-09-17 10:13:24"
+            "time": "2014-09-18 01:21:12"
         },
         {
             "name": "laravel/framework",
